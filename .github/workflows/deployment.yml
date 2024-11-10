@@ -1,0 +1,25 @@
+name: Deployment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: SSH and Run Commands
+        uses: appleboy/ssh-action@v0.1.5
+        with:
+          host: www.jonathan-martz.de
+          username: root 
+          key: ${{ secrets.SSH_KEY }}
+          port: 22
+          script: |
+            cd /var/www/www.jonathan-martz.de
+            git pull
+            bun install
+            bun run build
+            bun x pm2 restart ecosystem.config.cjs
