@@ -4,7 +4,6 @@
 
 	export let author = '';
 	export let avatar = '';
-	export let twitter = '';
 	export let postDate = '';
 </script>
 
@@ -14,14 +13,6 @@
 <dl class="whitespace-nowrap text-sm font-medium leading-5">
 	<dt class="sr-only">Author</dt>
 	<dd class="text-base font-bold leading-6 text-gray-600 dark:text-gray-300">{author}</dd>
-	{#if twitter}
-		<dt class="sr-only">Twitter</dt>
-		<dd>
-			<SocialIcon icon="twitter" url={twitter} small>
-				{twitter?.replace('https://twitter.com/', '@')}
-			</SocialIcon>
-		</dd>
-	{/if}
 	{#if postDate}
 		<dt class="sr-only">Published on</dt>
 		<dd class="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">

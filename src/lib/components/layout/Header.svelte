@@ -7,12 +7,10 @@
 <header class="flex items-center justify-between py-10">
 	<div>
 		<a href="/" aria-label={config.headerTitle}>
-			<div class="flex items-center justify-between">
-				<div class="mr-3">
-					<img src="/logo.svg" alt="Logo" class="h-10 w-auto" />
-				</div>
-				<div class="hidden text-4xl font-semibold sm:block font-title">
-					{config.headerTitle}
+			<div class="flex items-center">
+				<img src="https://cdn.jmse.cloud/avatar-2024.png" class="h-16 w-16 mr-6 rounded-full" alt="">
+				<div class="hidden text-2xl font-semibold sm:block font-title">
+					{@html config.headerTitle.replace('\n', '<br>')}
 				</div>
 			</div>
 		</a>

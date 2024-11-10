@@ -20,7 +20,7 @@ module.exports = {
 				body: ['Open Sans', ...defaultTheme.fontFamily.sans]
 			},
 			colors: {
-				primary: colors.green,
+				primary: colors.blue,
 				gray: colors.neutral
 			},
 			typography: (theme) => ({

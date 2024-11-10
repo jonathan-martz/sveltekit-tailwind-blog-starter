@@ -1,7 +1,7 @@
 <script>
 	import { config } from '$lib/config';
 
-	export let title = 'Official Website';
+	export let title = '';
 	export let description = config.description;
 	export let author = config.author;
 	export let url = config.siteUrl;
@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head>
-	<title>{title} | {config.title}</title>
+	<title>{config.title}</title>
 	<meta name="description" content={description} />
 	<meta name="author" content={author} />
 

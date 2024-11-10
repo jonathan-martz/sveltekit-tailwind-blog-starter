@@ -1,23 +1,23 @@
 export const config = {
-	title: 'Pied Piper (un)official blog',
-	author: 'Ahmad Kiarostami',
-	headerTitle: 'Pied Piper',
-	description: 'Pied Piper (un)official blog, created with Sveltekit and Tailwind.css',
-	language: 'en-us',
+	title: 'Jonathan Martz Softwareentwicklung',
+	author: 'Jonathan Martz',
+	headerTitle: 'Jonathan Martz \n Softwareentwicklung',
+	description: 'Jonathan Martz Blog, created with Sveltekit and Tailwind.css',
+	language: 'de-de',
 	theme: 'dark', // system, dark or light
-	domain: 'http://www.piedpiper.com/',
-	siteUrl: 'https://pied-piper-blog.netlify.app',
-	siteRepo: 'https://github.com/akiarostami/sveltekit-tailwind-blog-starter',
-	siteLogo: '/icon-512.png',
-	// image: '/img/avatar.png',
-	email: 'info@piedpiper.com',
-	github: 'https://github.com/piedpiper',
-	twitter: 'https://twitter.com/piedpiperplc',
-	facebook: 'https://www.facebook.com/piedpipersv',
-	youtube: 'https://www.youtube.com/watch?v=p3RwX06wcBs',
-	linkedin: 'https://www.linkedin.com/company/pied-piper-plc/',
-	locale: 'en-US',
-	primaryColor: '#06a261',
+	domain: 'https://www.jonathan-martz.de',
+	siteUrl: 'https://www.jonathan-martz.de',
+	siteRepo: 'https://github.com/jonathan-martz/sveltekit-tailwind-blog-starter',
+	siteLogo: '/jmse-logo.svg',
+	image: 'https://cdn.jmse.cloud/avatar-2024.png',
+	email: 'info@jonathan-martz.de',
+	github: 'https://github.com/jonathan-martz',
+	twitter: '',
+	facebook: '',
+	youtube: '',
+	linkedin: 'https://www.linkedin.com/company/jonathan-martz-softwareentwicklung/',
+	locale: 'de-DE',
+	primaryColor: '#1f6fed',
 
 	// supports buttondown, convertkit, emailoctopus, klaviyo, mailchimp, revue
 	// use false or null to disable newsletter
@@ -28,16 +28,16 @@ export const config = {
 };
 
 export const user = {
-	name: 'admin',
+	name: 'Jonathan Martz',
 	// avatar value can be removed for image
-	avatar: '/logo.png',
+	avatar: 'https://cdn.jmse.cloud/avatart-2024.png',
 	// twitter value can be removed for no link to twitter
-	twitter: 'https://twitter.com/piedpiperplc'
+	twitter: ''
 };
 
 export const navLinks = [
-	{ href: '/about', title: 'About' },
-	{ href: '/projects', title: 'Projects' },
+	{ href: '/über-uns', title: 'Über uns' },
+	{ href: '/projekte', title: 'Projekte' },
 	{ href: '/blog', title: 'Blog' }
 ];
 

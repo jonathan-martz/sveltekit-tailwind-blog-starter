@@ -12,7 +12,7 @@
 		<div class="xl:divide-y xl:divide-gray-200 xl:dark:divide-gray-700">
 			<header class="pt-6 xl:pb-6">
 				{#if post.image}
-					<div class=" w-full pb-6">
+					<div class=" w-full mb-6">
 						<img
 							alt={post.title}
 							src={post.image}
@@ -118,7 +118,7 @@
 							href="/blog"
 							class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 						>
-							&larr; Back to the blog
+							&larr; Zurück zum Blog
 						</a>
 					</div>
 				</footer>

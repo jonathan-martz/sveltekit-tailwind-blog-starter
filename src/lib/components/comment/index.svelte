@@ -7,11 +7,11 @@
 </script>
 
 {#if commentProvider}
-	<div class="pt-6 pb-6 text-center text-gray-700 dark:text-gray-300 border-t">
+	<!-- <div class="pt-6 pb-6 text-center text-gray-700 dark:text-gray-300 border-t">
 		{#if commentProvider === 'giscus'}
 			<Giscus config={comment.giscus} />
 		{:else if commentProvider === 'utterances'}
 			<Utterances config={comment.utterances} />
 		{/if}
-	</div>
+	</div> -->
 {/if}

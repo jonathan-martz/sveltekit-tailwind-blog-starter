@@ -54,7 +54,7 @@
 		</div>
 	</div>
 	{#if !currentPosts.length}
-		No post found.
+		Kein Artikel gefunden
 	{:else}
 		<ul>
 			{#each currentPosts as post}
@@ -87,7 +87,7 @@
 											class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 											aria-label={`Read "${post.title}"`}
 										>
-											Read more &rarr;
+											weiterlesen &rarr;
 										</a>
 									</div>
 								{/if}

@@ -8,33 +8,32 @@
 	const authors = data.authors;
 </script>
 
-<Head title="About" />
+<Head title="Über uns" />
 
 <div class="divide-y divide-gray-200 dark:divide-gray-700">
 	<div class="space-y-2 pt-6 pb-8 md:space-y-5">
-		<Title title="About" />
+		<Title title="Über uns" />
 	</div>
 	<div class="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
 		<div class="flex flex-col items-center py-6">
-			<img src={config.siteLogo} alt="logo" class="h-64 w-64" />
+			<img src={config.image} alt="logo" class="h-36 w-36 rounded-full" />
 			<div class="flex space-x-2 pt-4">
 				<SocialIcon icon="mail" url={`mailto:${config.email}`} />
 				<SocialIcon icon="github" url={config.github} />
 				<SocialIcon icon="linkedin" url={config.linkedin} />
-				<SocialIcon icon="twitter" url={config.twitter} />
 			</div>
 		</div>
 		<div class="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
-			Pied Piper (PP) was an American tech company based in Silicon Valley, California. The company
-			was formed in 2014 by Richard Hendricks as a company to develop Richard's algorithm that he'd
-			created. The company is best known to for achieving the highest Weissman score in history
-			during their presentation at TechCrunch Disrupt. The company's first appearance was in the
-			Season One episode Minimum Viable Product and has since served as the primary company for the
-			series.
+			Jonathan Martz Softwareentwicklung bietet professionelle Lösungen in der Webentwicklung und
+			Softwareberatung. Mit einem Fokus auf moderne Technologien und maßgeschneiderte Anwendungen
+			unterstützt Jonathan Martz Unternehmen dabei, digitale Projekte effizient und
+			benutzerfreundlich umzusetzen. Ob Website-Erstellung, individuelle Softwarelösungen oder
+			technische Beratung – jedes Projekt wird mit einem hohen Qualitätsanspruch und einem klaren
+			Fokus auf Kundenzufriedenheit realisiert.
 		</div>
 	</div>
 	<div class="space-y-2 py-8 md:space-y-5">
-		<Title h2 title="Contributors" />
+		<Title h2 title="Teammitglieder" />
 		<div class="grid xl:grid-cols-3 grid-cols-2 gap-4">
 			{#each authors as author}
 				<div class="lg:flex flex-row space-x-3">
@@ -46,7 +45,6 @@
 						<p class="text-gray-500 mb-2">{author.occupation}</p>
 						<div class="flex">
 							<SocialIcon small icon="mail" url={`mailto:${author.email}`} />
-							<SocialIcon small icon="twitter" url={author.twitter} />
 							<SocialIcon small icon="linkedin" url={author.linkedin} />
 							<SocialIcon small icon="github" url={author.github} />
 						</div>

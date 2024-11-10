@@ -10,15 +10,16 @@
 
 <div class="pt-12">
 	<h1
-		class="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14"
+		class="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-4xl md:leading-14"
 	>
-		Welcome to Pied Piper!
+		Willkommen bei Jonathan Martz Softwareentwicklung!
 	</h1>
 	<p class="text-xl prose-xl text-gray-800 dark:text-gray-400">
-		This is Pied Piper's (un)official blog. Amoung many other things, Pied Piper offers a middle-out
-		compression solution making data storage problems smaller. To get the updates, please check this
-		site often, or subscribe to our RSS feed.
+		Jonathan Martz Softwareentwicklung bietet professionelle Lösungen in der Webentwicklung und
+		Softwareberatung. Mit einem Fokus auf moderne Technologien und maßgeschneiderte Anwendungen
+		unterstützt Jonathan Martz Unternehmen dabei, digitale Projekte effizient und benutzerfreundlich
+		umzusetzen.
 	</p>
 </div>
 
-<Blogs title="Latest Posts" h2 {posts} search={false} count={3} />
+<Blogs title="Letzen Artikel" h2 {posts} search={false} count={3} />
