@@ -20,7 +20,7 @@
 		unterstützt Jonathan Martz Unternehmen dabei, digitale Projekte effizient und benutzerfreundlich
 		umzusetzen.
 	</p>
-	<section class="actions mt-6">
+	<section class="actions mt-6 mb-6">
 		<a
 			href="mailto:support@jonathan-martz.de"
 			class="rounded-lg text-[#1f6fed] font-bold bg-gray-200 px-3 py-3">Sofort schreiben</a
