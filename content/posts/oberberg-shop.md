@@ -28,4 +28,4 @@ Dazu habe ich mir Domains wie folgende Gesichert:
 
 alle zum Thema <a href="https://Oberberg.shop" target="_blank">Oberberg.shop</a>, weitere werden folgen.
 
-## Kleiner Tipp am Ende, Bergneustadt.shop ist in Arbeit und dient mir zum Testen.
+## Kleiner Tipp am Ende, Bergneustadt.shop ist in Arbeit und dient mir zum Testen
