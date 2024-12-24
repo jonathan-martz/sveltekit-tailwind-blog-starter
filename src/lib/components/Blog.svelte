@@ -16,7 +16,7 @@
 						<img
 							alt={post.title}
 							src={post.image}
-							class="object-cover object-center w-full h-auto"
+							class="object-cover object-center w-full h-auto bg-white rounded-lg"
 						/>
 					</div>
 				{/if}
