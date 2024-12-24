@@ -2,10 +2,10 @@
 title: Meine Laufbahn - Nach der Ausbildung
 date: '2024-12-12'
 draft: false
-summary: 'Hallo Welt'
+summary: '2020 habe ich für noch weitere 2 Monate für Flagbit gearbeitet.'
 tags:
   - Webentwickler
-  - Fullstack (PHP/JS)
+  - Magento 2
   - Achter Autohaus
 image: https://cdn.jmse.cloud/jmse-logo.svg
 author: Jonathan Martz
