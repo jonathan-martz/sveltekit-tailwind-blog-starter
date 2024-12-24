@@ -23,6 +23,6 @@ Habe dann ein Praktikum bei Sikom2 in Gummersbach gemacht und 2 Jahre für Gizeh
 
 2016 habe ich den Umzug nach Karlsruhe gemacht für die Firma Flagbit GmbH & Co. KG und meine Ausbildung als Fachinformatiker gemacht.
 
-2020 habe ich im Februar meine Ausbildung abgeschlossen
+2020 habe ich im Februar meine Ausbildung abgeschlossen, dort habe ich vorallem Magento 1 und nachher Magento 2 Kunden in Form des Support unterstützt.
 
 Weiter gehts [hier](/blog/entwickler) nach der Ausbildung.
