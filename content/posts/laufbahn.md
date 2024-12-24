@@ -4,8 +4,8 @@ date: '2024-12-24'
 draft: false
 summary: 'Hallo Welt'
 tags:
-  - Webseiten
-  - Online Shops
+  - Schule
+  - Ausbildung
 image: https://cdn.jmse.cloud/jmse-logo.svg
 author: Jonathan Martz
 ---
