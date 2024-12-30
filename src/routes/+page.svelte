@@ -20,7 +20,7 @@
 		unterstützt Jonathan Martz Unternehmen dabei, digitale Projekte effizient und benutzerfreundlich
 		umzusetzen.
 	</p>
-	<section class="actions mt-6 mb-6">
+	<section class="actions mt-12 mb-6">
 		<a
 			href="mailto:support@jonathan-martz.de"
 			class="rounded-lg text-[#1f6fed] font-bold bg-gray-200 px-3 py-3">Sofort schreiben</a
@@ -28,6 +28,9 @@
 		<a href="tel:+491745141698" class="rounded-lg text-red-400 font-bold bg-white px-3 py-3"
 			>Jetzte anrufen</a
 		>
+		<div class="mt-6">
+			Mail: <a href="mailto:support@jonathan-martz.de">support@jonathan-martz.de</a> | Tel.: <a href="tel:+491745141698">0174 51 41 698</a>
+		</div>
 	</section>
 </div>
 
