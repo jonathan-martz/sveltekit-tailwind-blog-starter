@@ -20,6 +20,7 @@
 		unterstützt Jonathan Martz Unternehmen dabei, digitale Projekte effizient und benutzerfreundlich
 		umzusetzen.
 	</p>
+	<img src="https://cdn.jmse.cloud/jmse-logo.svg" class="rounded-lg bg-white my-6" alt="">
 	<section class="actions mt-12 mb-6 space-y-6">
 		<div class="mt-6">
 			Whatsapp.: <a class="text-[#1f6fed]" href="https://wa.me/+491745141698" target="_blank">0174 51 41 698</a> |
