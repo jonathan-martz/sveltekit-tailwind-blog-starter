@@ -2,7 +2,7 @@
 title: 2025 - JMSE
 date: '2025-01-03'
 draft: false
-summary: 'Hallo Welt'
+summary: 'JMSE - Wer sind wir ?'
 tags:
   - Webseiten
   - Kunden
