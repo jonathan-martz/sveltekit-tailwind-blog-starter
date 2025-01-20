@@ -21,6 +21,10 @@ By [Jonathan Martz](https://www.jmartz.de) / [PocketBase - PHP SDK](https://gitl
 Da ich viel mit PHP Arbeit wenn ich Sachen mit Robo oder Symfony mache, war es klar das ich eine SDK für Pocketbase brauche.
 Nur gab es noch keine, deswegen habe ich selber eine Programmiert.
 
+### Aktuell
+
+fange ich auch an es zu Testen damit ich stabiler auf änderungen von PocketBase reagieren kann.
+
 ### Code
 
 Gitlab Code -> [PHP SDK](https://gitlab.jonathan-martz.de/softwareentwicklung/pocketbase-php-sdk)
