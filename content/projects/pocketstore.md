@@ -1,8 +1,8 @@
 ---
 title: PocketStore.io
-date: 2024-11-11
+date: 2025-01-20
 draft: false
-description: Lorem Ipsum
+description: 'PocketStore ist ein auf PocketBase und VueJs basiertes Online Shop Framework.'
 href: /blog/pocketstore
-image: https://place-hold.it/300x500
+image: /img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg
 ---
