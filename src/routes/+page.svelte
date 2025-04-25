@@ -8,25 +8,49 @@
 
 <Head />
 
-<div class="pt-12">
+<div class="">
 	<h1
-		class="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-4xl md:leading-14"
+		class="pb-3 text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-4xl md:leading-14"
 	>
 		Willkommen bei Jonathan Martz Softwareentwicklung!
 	</h1>
-	<p class="text-xl prose-xl text-gray-800 dark:text-gray-400">
-		Jonathan Martz Softwareentwicklung bietet professionelle Lösungen in der Webentwicklung und
-		Softwareberatung. Mit einem Fokus auf moderne Technologien und maßgeschneiderte Anwendungen
-		unterstützt Jonathan Martz Unternehmen dabei, digitale Projekte effizient und benutzerfreundlich
-		umzusetzen.
-	</p>
-	<img src="https://cdn.jmse.cloud/jmse-logo.svg" class="rounded-lg bg-white my-6" alt="">
-	<section class="actions mt-12 mb-6 space-y-6">
-		<div class="mt-6">
-			Whatsapp.: <a class="text-[#1f6fed]" href="https://wa.me/+491745141698" target="_blank">0174 51 41 698</a> |
-			LinkedIn: <a class="text-[#1f6fed]" href="https://www.linkedin.com/in/jonathan-martz/" target="_blank">Jonathan Martz</a> <br><br>
-			Mail: <a class="text-[#1f6fed]" href="mailto:support@jonathan-martz.de">support@jonathan-martz.de</a> |		
-			Tel.: <a class="text-[#1f6fed]" href="tel:+491745141698">0174 51 41 698</a>
+	<img src="https://cdn.jmse.cloud/jmse-logo.svg" class="rounded-lg bg-white mb-3" alt="" />
+	<section class="grid grid-cols-6 gap-3">
+		<div class="col-span-6 md:col-span-3 bg-white rounded-lg px-3 py-3">
+			<p class="text-black text-sm">
+				Hallo, wir entwickeln Webseite für Händler aus dem Oberbergischen. Lass uns gemeinsam an
+				deinem Erfolg arbeiten.
+			</p>
+		</div>
+		<div class="col-span-6 md:col-span-3 bg-white rounded-lg text-black  text-sm px-3 py-3">
+			<section class="action">
+				<div class="">
+					LinkedIn:
+					<a
+						class="text-[#1f6fed]"
+						href="https://www.linkedin.com/in/jonathan-martz/"
+						target="_blank">Jonathan Martz</a
+					>
+					Mail:
+					<a class="text-[#1f6fed]" href="mailto:support@jonathan-martz.de"
+						>support@jonathan-martz.de</a
+					><br />
+					Tel.: <a class="text-[#1f6fed]" href="tel:+491745141698">0174 51 41 698</a> oder
+					Whatsapp.:
+					<a class="text-[#1f6fed]" href="https://wa.me/+491745141698" target="_blank"
+						>0174 51 41 698</a
+					>
+				</div>
+			</section>
+		</div>
+		<div class="col-span-6 md:col-span-2 bg-white rounded-lg px-3 py-3 text-black">
+			<img src="/img/spa.png" alt="" />
+		</div>
+		<div class="col-span-6 md:col-span-2 bg-white rounded-lg px-3 py-3 text-black">
+			<img src="/img/ecommerce.png" alt="" />
+		</div>
+		<div class="col-span-6 md:col-span-2 bg-white rounded-lg px-3 py-3 text-black">
+			<img src="/img/web-based.png" alt="" />
 		</div>
 	</section>
 </div>
